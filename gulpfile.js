@@ -6,17 +6,13 @@ gulp.task('default', function() {
 });
 
 
-// grab all .scss files
-// from /app/scss
-// run sass on them
-// put css files in /dist/css
-//
 gulp.task('sassify', function() {
   return gulp.src('app/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('dist/css'));
 });
 
-
-
+gulp.task('watch', function() {
+  gulp.watch('app/scss/**/*.scss', ['sassify']);
+});
 
