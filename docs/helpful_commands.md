@@ -22,3 +22,10 @@ $ npm install --save-dev browser-sync
 $ gulp taskname
 $ gulp watch
 
+$ git fetch
+$ git pull remote branch
+
+(We talked about tracking.)
+
+
+
