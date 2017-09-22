@@ -16,5 +16,9 @@ $ npm install --save-dev gulp
 $ npm install --save-dev gulp-sass
 $ npm install --save-dev jquery
 $ npm install --save-dev bootstrap@4.0.0-beta
+$ npm install --save-dev browser-sync
 
+
+$ gulp taskname
+$ gulp watch
 
