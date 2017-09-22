@@ -1,0 +1,29 @@
+{
+  "name": "bigpicture1",
+  "version": "1.0.0",
+  "description": "This project is a sample that brings together:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamp-f17/big-picture-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bootcamp-f17/big-picture-1/issues"
+  },
+  "homepage": "https://github.com/bootcamp-f17/big-picture-1#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.11.0"
+  }
+}
